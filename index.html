@@ -201,7 +201,7 @@
       <script src="javascripts/all.js"></script>
   </head>
 
-  <body class="index" data-languages="[&quot;shell&quot;,&quot;ruby&quot;,&quot;python&quot;,&quot;javascript&quot;]">
+  <body class="index" data-languages="[&quot;json&quot;,&quot;shell&quot;,&quot;ruby&quot;,&quot;javascript&quot;]">
     <a href="#" id="nav-button">
       <span>
         NAV
@@ -211,9 +211,9 @@
     <div class="toc-wrapper">
       <img src="images/logo.png" class="logo" alt="Logo" />
         <div class="lang-selector">
+              <a href="#" data-language-name="json">json</a>
               <a href="#" data-language-name="shell">shell</a>
               <a href="#" data-language-name="ruby">ruby</a>
-              <a href="#" data-language-name="python">python</a>
               <a href="#" data-language-name="javascript">javascript</a>
         </div>
         <div class="search">
@@ -225,19 +225,79 @@
             <a href="#introduction" class="toc-h1 toc-link" data-title="Introduction">Introduction</a>
           </li>
           <li>
-            <a href="#authentication" class="toc-h1 toc-link" data-title="Authentication">Authentication</a>
-          </li>
-          <li>
-            <a href="#kittens" class="toc-h1 toc-link" data-title="Kittens">Kittens</a>
+            <a href="#facebook" class="toc-h1 toc-link" data-title="Facebook 登入">Facebook 登入</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#get-all-kittens" class="toc-h2 toc-link" data-title="Get All Kittens">Get All Kittens</a>
+                    <a href="#5e3e70eaae" class="toc-h2 toc-link" data-title="建立新使用者">建立新使用者</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#private-me" class="toc-h1 toc-link" data-title="Private me">Private me</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#9037ebecc6" class="toc-h2 toc-link" data-title="取得個人資料">取得個人資料</a>
                   </li>
                   <li>
-                    <a href="#get-a-specific-kitten" class="toc-h2 toc-link" data-title="Get a Specific Kitten">Get a Specific Kitten</a>
+                    <a href="#37bf9f2aa1" class="toc-h2 toc-link" data-title="更新個人資料">更新個人資料</a>
                   </li>
                   <li>
-                    <a href="#delete-a-specific-kitten" class="toc-h2 toc-link" data-title="Delete a Specific Kitten">Delete a Specific Kitten</a>
+                    <a href="#og" class="toc-h2 toc-link" data-title="上傳 OG 分享圖">上傳 OG 分享圖</a>
+                  </li>
+                  <li>
+                    <a href="#7f28b0b970" class="toc-h2 toc-link" data-title="新增 使用者分數 獲得點數的交易紀錄">新增 使用者分數 獲得點數的交易紀錄</a>
+                  </li>
+                  <li>
+                    <a href="#44e1487d67" class="toc-h2 toc-link" data-title="新增 使用者分數 花費點數的交易紀錄">新增 使用者分數 花費點數的交易紀錄</a>
+                  </li>
+                  <li>
+                    <a href="#eeff2674aa" class="toc-h2 toc-link" data-title="新增 使用者團隊分數 獲得點數交易紀錄">新增 使用者團隊分數 獲得點數交易紀錄</a>
+                  </li>
+                  <li>
+                    <a href="#26592d6069" class="toc-h2 toc-link" data-title="更新好友招待碼">更新好友招待碼</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#user" class="toc-h1 toc-link" data-title="User">User</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#4b449db579" class="toc-h2 toc-link" data-title="取得人使用者參與人數">取得人使用者參與人數</a>
+                  </li>
+                  <li>
+                    <a href="#6099b7dec3" class="toc-h2 toc-link" data-title="取得使用者列表">取得使用者列表</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#group" class="toc-h1 toc-link" data-title="Group">Group</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#de803b8e67" class="toc-h2 toc-link" data-title="取得隊伍資訊">取得隊伍資訊</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#pointtask" class="toc-h1 toc-link" data-title="PointTask">PointTask</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#2774610115" class="toc-h2 toc-link" data-title="取得個人積分所有的任務：">取得個人積分所有的任務：</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#pointproduct" class="toc-h1 toc-link" data-title="PointProduct">PointProduct</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#aa6469e11d" class="toc-h2 toc-link" data-title="取得個人積分產品列表">取得個人積分產品列表</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#other-detials" class="toc-h1 toc-link" data-title="Other Detials">Other Detials</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#28594f6044" class="toc-h2 toc-link" data-title="取得網頁造訪人數">取得網頁造訪人數</a>
                   </li>
               </ul>
           </li>
@@ -254,185 +314,400 @@
       <div class="dark-box"></div>
       <div class="content">
         <h1 id='introduction'>Introduction</h1>
-<p>Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.</p>
+<p>聲林之王，網站會員系統 API</p>
+<h1 id='facebook'>Facebook 登入</h1>
+<p>Facebook 登入用連結：</p>
 
-<p>We have language bindings in Shell, Ruby, Python, and JavaScript! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.</p>
-
-<p>This example API documentation page was created with <a href="https://github.com/lord/slate">Slate</a>. Feel free to edit it and use it as a base for your own API&#39;s documentation.</p>
-<h1 id='authentication'>Authentication</h1>
-<blockquote>
-<p>To authorize, use this code:</p>
-</blockquote>
-<pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-</code></pre><pre class="highlight shell tab-shell"><code><span class="c"># With shell, you can just pass the correct header with each request</span>
-curl <span class="s2">"api_endpoint_here"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-</code></pre>
-<blockquote>
-<p>Make sure to replace <code>meowmeowmeow</code> with your API key.</p>
-</blockquote>
-
-<p>Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our <a href="http://example.com/developers">developer portal</a>.</p>
-
-<p>Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:</p>
-
-<p><code>Authorization: meowmeowmeow</code></p>
+<p><code>https://www.facebook.com/v4.0/dialog/oauth?client_id=&lt;APP-ID&gt;&amp;redirect_uri=&lt;REDIRECT-URI&gt;</code></p>
 
 <aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
+使用 Facebook 登入了話，需要到 facebook app 設定 Facebook Login 白名單
 </aside>
-<h1 id='kittens'>Kittens</h1><h2 id='get-all-kittens'>Get All Kittens</h2><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
-</code></pre><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">kittens</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="nx">get</span><span class="p">();</span>
-</code></pre>
-<blockquote>
-<p>The above command returns JSON structured like this:</p>
-</blockquote>
-<pre class="highlight json tab-json"><code><span class="p">[</span><span class="w">
-  </span><span class="p">{</span><span class="w">
-    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Fluffums"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"calico"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">7</span><span class="w">
-  </span><span class="p">},</span><span class="w">
-  </span><span class="p">{</span><span class="w">
-    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
-  </span><span class="p">}</span><span class="w">
-</span><span class="p">]</span><span class="w">
-</span></code></pre>
-<p>This endpoint retrieves all kittens.</p>
-<h3 id='http-request'>HTTP Request</h3>
-<p><code>GET http://example.com/api/kittens</code></p>
+<h2 id='5e3e70eaae'>建立新使用者</h2>
+<p>建立會員，並回傳新的使用者的資料</p>
+<h3 id='facebook-login'>Facebook Login</h3><h3 id='http-request'>HTTP Request</h3>
+<p><code>GET /auth/facebook/login?code=&lt;CODE&gt;&amp;redirect_uri=&lt;REDIRECT URI&gt;</code></p>
 <h3 id='query-parameters'>Query Parameters</h3>
 <table><thead>
 <tr>
 <th>Parameter</th>
-<th>Default</th>
+<th>require</th>
 <th>Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td>include_cats</td>
-<td>false</td>
-<td>If set to true, the result will also include cats.</td>
+<td>code</td>
+<td>true</td>
+<td>Facebook 登入後取得的驗證碼</td>
 </tr>
 <tr>
-<td>available</td>
+<td>redirect_uri</td>
 <td>true</td>
 <td>If set to false, the result will include kittens that have already been adopted.</td>
 </tr>
 </tbody></table>
+<h1 id='private-me'>Private me</h1>
+<p>Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our <a href="http://example.com/developers">developer portal</a>.
+Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:</p>
 
-<aside class="success">
-Remember — a happy kitten is an authenticated kitten!
+<p><code>token: xxxxx</code></p>
+
+<aside class="notice">
+  Private 的相關 API 操作， 皆需帶入當前使用者的 token 才可進行操作
 </aside>
-<h2 id='get-a-specific-kitten'>Get a Specific Kitten</h2><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens/2"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">max</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
-</code></pre>
-<blockquote>
-<p>The above command returns JSON structured like this:</p>
-</blockquote>
+<h2 id='9037ebecc6'>取得個人資料</h2><h3 id='http-request-2'>HTTP Request</h3>
+<p><code>GET /private/me.json&amp;token=&lt;TOKEN&gt;</code></p>
 <pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max"</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
+   </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="w"> </span><span class="p">,</span><span class="w">
+   </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"nick_name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"email"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"point"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"entertain_code"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"friend_entertain_code"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"point_entertain_transactions"</span><span class="p">:</span><span class="w"> </span><span class="err">Array</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"props"</span><span class="p">:</span><span class="w"> </span><span class="err">Array</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"token"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"group"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+       </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"name_zh"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"updated_at"</span><span class="err">.</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"created_at"</span><span class="err">.</span><span class="w"> </span><span class="err">timestamp</span><span class="w">
+   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre>
-<p>This endpoint retrieves a specific kitten.</p>
-
-<aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
-<h3 id='http-request-2'>HTTP Request</h3>
-<p><code>GET http://example.com/kittens/&lt;ID&gt;</code></p>
-<h3 id='url-parameters'>URL Parameters</h3>
+</span></code></pre><h2 id='37bf9f2aa1'>更新個人資料</h2><h3 id='http-request-3'>HTTP Request</h3>
+<p><code>PUT /private/me.json&amp;token=&lt;TOKEN&gt;</code></p>
+<h3 id='body-parameters'>Body Parameters</h3>
 <table><thead>
 <tr>
 <th>Parameter</th>
+<th>require</th>
 <th>Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td>ID</td>
-<td>The ID of the kitten to retrieve</td>
+<td>avatar_data</td>
+<td>false</td>
+<td>更新使用者個人大頭貼</td>
+</tr>
+<tr>
+<td>group_name</td>
+<td>false</td>
+<td>更新使用者加入的隊伍 blue、red、yellow (只允許更新一次)</td>
+</tr>
+<tr>
+<td>nick_name</td>
+<td>false</td>
+<td>使用者自訂玩家的名稱</td>
 </tr>
 </tbody></table>
-<h2 id='delete-a-specific-kitten'>Delete a Specific Kitten</h2><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens/2"</span>
-  -X DELETE
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">max</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
-</code></pre>
-<blockquote>
-<p>The above command returns JSON structured like this:</p>
-</blockquote>
 <pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"deleted"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">":("</span><span class="w">
+   </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="w"> </span><span class="p">,</span><span class="w">
+   </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"nick_name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"email"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"point"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"entertain_code"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"friend_entertain_code"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"point_entertain_transactions"</span><span class="p">:</span><span class="w"> </span><span class="err">Array</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"props"</span><span class="p">:</span><span class="w"> </span><span class="err">Array</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"token"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"group"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+       </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"name_zh"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"updated_at"</span><span class="err">.</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"created_at"</span><span class="err">.</span><span class="w"> </span><span class="err">timestamp</span><span class="w">
+   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre>
-<p>This endpoint deletes a specific kitten.</p>
-<h3 id='http-request-3'>HTTP Request</h3>
-<p><code>DELETE http://example.com/kittens/&lt;ID&gt;</code></p>
-<h3 id='url-parameters-2'>URL Parameters</h3>
+</span></code></pre><h2 id='og'>上傳 OG 分享圖</h2><h3 id='http-request-4'>HTTP Request</h3>
+<ul>
+<li>method: GET</li>
+<li>URL: https://share.junglevoicewar.tw/users/7/share/avatar?entertain_code=xxx
+備註： og 圖片上傳後，使用 user { id,  entertain_code} 組合出分享連結，當連結被請求時，追蹤碼的所有者會加入對應的分數</li>
+</ul>
+<h3 id='http-request-5'>HTTP Request</h3>
+<p><code>PUT /private/me/ogimage&amp;token=&lt;TOKEN&gt;</code></p>
+<h3 id='query-parameters-2'>Query Parameters</h3>
 <table><thead>
 <tr>
 <th>Parameter</th>
+<th>require</th>
 <th>Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td>ID</td>
-<td>The ID of the kitten to delete</td>
+<td>base64</td>
+<td>true</td>
+<td>base64</td>
+</tr>
+<tr>
+<td>category</td>
+<td>true</td>
+<td>對應不同的遊戲分類 (avatar, guess_song)</td>
 </tr>
 </tbody></table>
-<h1 id='errors'>Errors</h1>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+   </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="w"> </span><span class="p">,</span><span class="w">
+   </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"nick_name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"email"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"point"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"entertain_code"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"friend_entertain_code"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"point_entertain_transactions"</span><span class="p">:</span><span class="w"> </span><span class="err">Array</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"props"</span><span class="p">:</span><span class="w"> </span><span class="err">Array</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"token"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"group"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+       </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"name_zh"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"updated_at"</span><span class="err">.</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"created_at"</span><span class="err">.</span><span class="w"> </span><span class="err">timestamp</span><span class="w">
+   </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h2 id='7f28b0b970'>新增 使用者分數 獲得點數的交易紀錄</h2>
+<p><code>POST /private/me/point?token=&lt;TOKEN&gt;</code></p>
+<h3 id='body-parameters-2'>Body Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>require</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>task_name</td>
+<td>true</td>
+<td>獲得分數的任務名稱</td>
+</tr>
+</tbody></table>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+   </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="w"> </span><span class="p">,</span><span class="w">
+   </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"nick_name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"email"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"point"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"entertain_code"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"friend_entertain_code"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"point_entertain_transactions"</span><span class="p">:</span><span class="w"> </span><span class="err">Array</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"props"</span><span class="p">:</span><span class="w"> </span><span class="err">Array</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"token"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"group"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+       </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"name_zh"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"updated_at"</span><span class="err">.</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"created_at"</span><span class="err">.</span><span class="w"> </span><span class="err">timestamp</span><span class="w">
+   </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h2 id='44e1487d67'>新增 使用者分數 花費點數的交易紀錄</h2>
+<p><code>POST /private/me/buy?token=&lt;TOKEN&gt;</code></p>
+<h3 id='body-parameters-3'>Body Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>require</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>product_name</td>
+<td>true</td>
+<td>購買商品的名稱 <code>name</code></td>
+</tr>
+</tbody></table>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+   </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="w"> </span><span class="p">,</span><span class="w">
+   </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"nick_name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"email"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"point"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"entertain_code"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"friend_entertain_code"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"point_entertain_transactions"</span><span class="p">:</span><span class="w"> </span><span class="err">Array</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"props"</span><span class="p">:</span><span class="w"> </span><span class="err">Array</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"token"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"group"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+       </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"name_zh"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"updated_at"</span><span class="err">.</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"created_at"</span><span class="err">.</span><span class="w"> </span><span class="err">timestamp</span><span class="w">
+   </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h2 id='eeff2674aa'>新增 使用者團隊分數 獲得點數交易紀錄</h2>
+<p><code>POST /private/me/group_point?token=&lt;TOKEN&gt;</code></p>
+<h3 id='query-parameters-3'>Query Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>require</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>task_name</td>
+<td>true</td>
+<td>獲得分數的 團隊任務名稱</td>
+</tr>
+<tr>
+<td>category</td>
+<td>false</td>
+<td>團隊任務類型</td>
+</tr>
+<tr>
+<td>lv</td>
+<td>false</td>
+<td>如果 category 為 game 時，要給予對應遊戲成績的分數</td>
+</tr>
+</tbody></table>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+   </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="w"> </span><span class="p">,</span><span class="w">
+   </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"nick_name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"email"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"point"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"entertain_code"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"friend_entertain_code"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"point_entertain_transactions"</span><span class="p">:</span><span class="w"> </span><span class="err">Array</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"props"</span><span class="p">:</span><span class="w"> </span><span class="err">Array</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"token"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"group"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+       </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"name_zh"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"updated_at"</span><span class="err">.</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+       </span><span class="s2">"created_at"</span><span class="err">.</span><span class="w"> </span><span class="err">timestamp</span><span class="w">
+   </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h2 id='26592d6069'>更新好友招待碼</h2>
+<p><code>PUT me/friend_entertain_code</code></p>
+<h3 id='body-parameters-4'>Body Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>require</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>true</td>
+<td>朋友招待碼</td>
+</tr>
+</tbody></table>
+<h1 id='user'>User</h1><h2 id='4b449db579'>取得人使用者參與人數</h2>
+<p><code>GET /users/count</code></p>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+   </span><span class="s2">"data"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h2 id='6099b7dec3'>取得使用者列表</h2><h3 id='http-request-6'>HTTP Request</h3>
+<p><code>GET /private/me.json&amp;token=&lt;TOKEN&gt;</code></p>
+<h3 id='query-parameters-4'>Query Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>require</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>preview</td>
+<td>true</td>
+<td>每頁顯示資料數</td>
+</tr>
+<tr>
+<td>page</td>
+<td>true</td>
+<td>頁數</td>
+</tr>
+<tr>
+<td>order_by</td>
+<td>true</td>
+<td>排序參考欄位 <code>point</code></td>
+</tr>
+<tr>
+<td>sort:</td>
+<td>true</td>
+<td>排序方式 <code>asc</code>、<code>desc</code></td>
+</tr>
+<tr>
+<td>group_id</td>
+<td>false</td>
+<td>篩選對應的 group</td>
+</tr>
+</tbody></table>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+   </span><span class="s2">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+       </span><span class="p">{</span><span class="w">
+           </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"group_zh"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"point"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"group_point"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="w">
+       </span><span class="p">}</span><span class="w">
+   </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h1 id='group'>Group</h1><h2 id='de803b8e67'>取得隊伍資訊</h2><h3 id='http-request-7'>HTTP Request</h3>
+<p><code>GET /groups</code></p>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+   </span><span class="s2">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+       </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"name_Zh"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"point"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">團隊積分</span><span class="w">
+            </span><span class="s2">"updated_at"</span><span class="p">:</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="err">timestamp</span><span class="w">
+       </span><span class="p">}</span><span class="w">
+   </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h1 id='pointtask'>PointTask</h1><h2 id='2774610115'>取得個人積分所有的任務：</h2><h3 id='http-request-8'>HTTP Request</h3>
+<p><code>GET /groups</code></p>
+<pre class="highlight json tab-json"><code><span class="s2">"tasks"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+       </span><span class="p">{</span><span class="w">
+           </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"name_zh"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"point"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"message"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"web_hook"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"limit_count"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"time_unit"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="w"> </span><span class="err">(</span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="err">everyday</span><span class="p">,</span><span class="w"> </span><span class="err">everyNight)</span><span class="w">
+           </span><span class="s2">"start_at"</span><span class="p">:</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"end_at"</span><span class="p">:</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"update_at"</span><span class="p">:</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+           </span><span class="s2">"create_at"</span><span class="p">:</span><span class="w"> </span><span class="err">timestamp</span><span class="w">
+       </span><span class="p">}</span><span class="w">
+   </span><span class="p">]</span><span class="w">
+</span></code></pre><h1 id='pointproduct'>PointProduct</h1><h2 id='aa6469e11d'>取得個人積分產品列表</h2><h3 id='http-request-9'>HTTP Request</h3>
+<p><code>GET /point_products</code></p>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+    </span><span class="s2">"products"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"name_zh"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"message"</span><span class="p">:</span><span class="w"> </span><span class="err">String</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"limit_count"</span><span class="p">:</span><span class="w"> </span><span class="err">Number</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"start_at"</span><span class="p">:</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"end_at"</span><span class="p">:</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"expiry_ay"</span><span class="p">:</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"update_at"</span><span class="p">:</span><span class="w"> </span><span class="err">timestamp</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"create_at"</span><span class="p">:</span><span class="w"> </span><span class="err">timestamp</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h1 id='other-detials'>Other Detials</h1><h2 id='28594f6044'>取得網頁造訪人數</h2><h3 id='http-request-10'>HTTP Request</h3>
+<p><code>GET /detial/user_count</code></p>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+    </span><span class="s2">"user_count"</span><span class="p">:</span><span class="w"> </span><span class="err">number</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h1 id='errors'>Errors</h1>
 <aside class="notice">
 This error section is stored in a separate file in <code>includes/_errors.md</code>. Slate allows you to optionally separate out your docs into many files...just save them to the <code>includes</code> folder and add them to the top of your <code>index.md</code>'s frontmatter. Files are included in the order listed.
 </aside>
@@ -494,9 +769,9 @@ This error section is stored in a separate file in <code>includes/_errors.md</co
       </div>
       <div class="dark-box">
           <div class="lang-selector">
+                <a href="#" data-language-name="json">json</a>
                 <a href="#" data-language-name="shell">shell</a>
                 <a href="#" data-language-name="ruby">ruby</a>
-                <a href="#" data-language-name="python">python</a>
                 <a href="#" data-language-name="javascript">javascript</a>
           </div>
       </div>
